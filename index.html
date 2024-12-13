@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="carregar()">
+    <section>
+        <h1>Programas que eu fiz em JavaScript:</h1>
+        <p id="ex1"></p><br><br>
+        Inicio: <input type="number" id="inicio"><br /><br />
+        Fim: <input type="number" id="fim"><br /><br />
+        Passo: <input type="number" id="passo"><br /><br />
+        <input type="button" onclick="contar()" value="CONTAR">
+        <p id="ex2"><br /></p>
+        <h2>Digite um número:</h2>
+        <input type="number" id="par"><button onclick="parimp()">VERIFICAR</button>
+        <div id="ex3"></div>
+        <h2>Calculadora de adção:</h2>
+        <input type="number" id="n10"> + <input type="number" id="n20"> <button onclick="somar()">CALCULAR</button>
+        <div id="ex40"></div>
+        <h2>Calculadora de subtração:</h2>
+        <input type="number" id="n11"> - <input type="number" id="n21"> <button onclick="subtrair()">CALCULAR</button>
+        <div id="ex41"></div>
+        <h2>Calculadora de multiplicação:</h2>
+        <input type="number" id="n12"> X <input type="number" id="n22"> <button
+            onclick="multiplicar()">CALCULAR</button>
+        <div id="ex42"></div>
+        <h2>Calculadora de divisão:</h2>
+        <input type="number" id="n13"> <button onclick="dividir()">CALCULAR</button><br>
+        ______________________<br><br>
+        <input type="number" id="n23">
+        <div id="ex43"></div>
+        <div>
+            <h2>Resolvedor de equações do 2º grau:</h2>
+            <h3>Qual o valor de:</h3>
+            A:<input type="number" id="a">
+            B:<input type="number" id="b">
+            C:<input type="number" id="c">
+            <button onclick="delta()">CALCULAR</button>
+            <div id="ex5"></div>
+        </div>
+        <div>
+            <h2>Calculadora de juros compostos</h2>
+            Valor inicial: <input type="number" id="p"><br>
+            Taxa (mensal): <input type="number" id="i"><br>
+            Tempo (em meses): <input type="number" id="t"><br>
+            <button onclick="juros()">CALCULAR</button>
+            <div id="ex6"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
